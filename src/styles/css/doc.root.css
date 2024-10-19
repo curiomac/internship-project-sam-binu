@@ -1,0 +1,43 @@
+:root {
+  --alpha-one: 0.1;
+  --alpha-two: 0.2;
+  --alpha-three: 0.3;
+  --alpha-four: 0.4;
+  --alpha-five: 0.5;
+  --alpha-six: 0.6;
+  --alpha-seven: 0.7;
+  --alpha-eight: 0.8;
+  --alpha-nine: 0.9;
+
+  /* Sizes */
+  --size-1px: 1px;
+  --size-2px: 2px;
+  --size-3px: 3px;
+  --size-4px: 0.25rem;
+  --size-6px: 0.375rem;
+  --size-8px: 0.5rem;
+  --size-10px: 0.625rem;
+  --size-12px: 0.75rem;
+  --size-14px: 0.875rem;
+  --size-16px: 1rem;
+  --size-18px: 1.125rem;
+  --size-20px: 1.25rem;
+  --size-24px: 1.5rem;
+  --size-28px: 1.75rem;
+  --size-32px: 2rem;
+  --size-36px: 2.25rem;
+  --size-40px: 2.5rem;
+  --size-48px: 3rem;
+  --size-56px: 3.5rem;
+  --size-64px: 4rem;
+  --size-72px: 4.5rem;
+  --size-80px: 5rem;
+  --size-88px: 5.5rem;
+  --size-96px: 6rem;
+
+  /* Font-Weight */
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+}

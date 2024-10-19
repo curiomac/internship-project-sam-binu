@@ -1,0 +1,234 @@
+/* imports */
+@import "_values";
+
+// Management
+.management_container {
+  display: flex;
+  align-items: center;
+  // Sidebar
+  .sidebar_container {
+    height: $doc-height;
+    background-color: $management-bg-1;
+    width: 17rem;
+    border-right: var(--size-1px) solid $management-border-color;
+    .container_top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 17.5px;
+      border-bottom: var(--size-1px) solid $management-border-color;
+      .logo_container {
+        height: var(--size-72px);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        img {
+          height: 28px;
+        }
+      }
+    }
+    .links_container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0px 17.5px;
+      padding: 20px 0px;
+      border-bottom: var(--size-1px) solid $management-border-color;
+      a {
+        height: var(--size-56px);
+        display: flex;
+        align-items: center;
+        gap: 17.5px;
+        background-color: $management-bg-1;
+        color: $management-font-color-1;
+        .ic {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    .project_links_container {
+      padding: 20px 10px;
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $management-font-color-1;
+        padding: 0px 10px;
+        .add_ic_container {
+          height: 15px;
+          width: 15px;
+          border: var(--size-1px) solid $management-border-color;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 3px;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+      .data_links_container {
+        padding: 20px 0px;
+        a {
+          height: var(--size-40px);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          color: $management-font-color-1;
+          padding: 2px 10px;
+          margin-top: 10px;
+          &.active {
+            background-color: $management-bg-3;
+            border-radius: 10px;
+            font-weight: 600;
+            color: $management-font-color-2;
+          }
+          .link_focus_element {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .span_color {
+              height: 8px;
+              width: 8px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+    .banner {
+      .asset_container {
+        background-color: $management-bg-2;
+        margin-top: -50px;
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .asset_item {
+          height: 80px;
+          width: 80px;
+          background-image: url(../../assets/imgs/ellipse.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-attachment: scroll;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  // Elements
+  .elements_container {
+    height: $doc-height;
+    background-color: $management-bg-1;
+    width: calc($doc-width - 17rem - var(--size-1px));
+    .topbar_container {
+      height: var(--size-72px);
+      background-color: $management-bg-1;
+      width: -webkit-fill-available;
+      border-bottom: var(--size-1px) solid $management-border-color;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 50px;
+      .search_tab {
+        display: flex;
+        align-items: center;
+        .search_ic_container {
+          height: 40px;
+          width: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: $management-bg-2;
+          border-top-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+          font-size: 24px;
+          color: $management-font-color-1;
+        }
+        input {
+          height: 40px;
+          width: 347px;
+          background-color: $management-bg-2;
+          color: $management-font-color-1;
+          border: none;
+          outline: none;
+          border-top-right-radius: 6px;
+          border-bottom-right-radius: 6px;
+          padding-right: 10px;
+          font-size: 14px;
+        }
+      }
+      .end_links {
+        display: flex;
+        align-items: center;
+        .button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: var(--size-10px);
+          font-size: 10px;
+          font-weight: 600;
+          color: $management-font-color-1;
+          cursor: pointer;
+        }
+      }
+    }
+    .outlet {
+      padding: 0px 50px;
+      .mobile_app_container {
+        .header {
+          padding: 50px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .custom-vr {
+          height: 28px;
+          width: 1px;
+          background-color: $management-font-color-1;
+        }
+        .base_module {
+          background-color: $management-bg-2;
+          width: -webkit-fill-available;
+          padding: 20px;
+          .base_module_header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 3px solid;
+            padding-bottom: 15px;
+            .span {
+              height: 8px;
+              width: 8px;
+              border-radius: 50%;
+            }
+          }
+          .card_container {
+            height: calc($doc-height - 450px);
+            overflow-x: hidden;
+            &::-webkit-scrollbar {
+              width: 5px;
+            }
+            &::-webkit-scrollbar-thumb {
+              width: 5px;
+              background: #d1d1d1;
+              border-radius: 50px;
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
