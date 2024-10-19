@@ -1,7 +1,7 @@
 
 # Project Name
 
-A comprehensive web application built with modern web technologies, utilizing **Redux**, **Material-UI (MUI)**, **TailwindCSS**, and custom theming. This project is designed with responsive UI and state management for seamless interaction and scalable development.
+An Internship project application built with React Js, utilizing **Redux**, **Material-UI (MUI)**, **TailwindCSS**, and custom theming. This project is designed with state management for seamless interaction and scalable development.
 
 ## Features
 
@@ -61,9 +61,6 @@ const handleTheme = () => {
 
 ### 4. **Drag-and-Drop**
 The project incorporates drag-and-drop functionality using the `onDragEnd` method from `React DnD` to reorder tasks, move items between columns, and maintain productivity flow.
-
-### 5. **Responsive Layout**
-With the combined power of **MUI** and **TailwindCSS**, the project ensures that all components adapt seamlessly across different screen sizes, providing a fluid user experience.
 
 ## Installation and Setup
 
