@@ -25,16 +25,16 @@ A comprehensive web application built with modern web technologies, utilizing **
 
 ## Color Scheme
 
-The project adopts a professional yet clean color scheme:
+The project adopts a professional color scheme:
 
 ```css
---cmac-management-font-color-1: #787486; /* Subtle gray for secondary text */
---cmac-management-font-color-2: #0D062D; /* Dark for primary headings */
---cmac-management-bg-1: #FFFFFF; /* Pure white background */
---cmac-management-bg-2: #F5F5F5; /* Light gray background */
---cmac-management-bg-3: #5030E514; /* Soft purple overlay for elements */
---cmac-management-bg-4: #5030E5; /* Strong purple for highlights */
---cmac-management-border-color: #DBDBDB; /* Light border for separating sections */
+--cmac-management-font-color-1: #787486;
+--cmac-management-font-color-2: #0D062D;
+--cmac-management-bg-1: #FFFFFF;
+--cmac-management-bg-2: #F5F5F5;
+--cmac-management-bg-3: #5030E514;
+--cmac-management-bg-4: #5030E5;
+--cmac-management-border-color: #DBDBDB;
 ```
 
 ## Key Components
@@ -117,8 +117,3 @@ The project structure is organized as follows:
 - **redux/**: Manages all state-related actions and reducers.
 - **styles/**: Custom CSS and TailwindCSS configurations.
 - **App.js**: Main application component.
-
-## Contributing
-
-Feel free to fork this repository, submit issues, or send pull requests to contribute to the project.
-
