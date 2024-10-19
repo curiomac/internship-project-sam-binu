@@ -116,8 +116,6 @@ The project structure is organized as follows:
     /actions
     /slices
     store.js
-  /styles
-    theme.css
   App.js
   index.js
 ```
